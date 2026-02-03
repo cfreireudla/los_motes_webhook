@@ -1,7 +1,6 @@
-from turtle import mode
 from fastapi import APIRouter, Request, HTTPException
 from dotenv import load_dotenv
-from services.message_service import process_message
+from services.message_service import handle_incoming_message
 import os
 
 load_dotenv()
@@ -40,6 +39,6 @@ async def handle_incoming(request: Request):
         contact = payload.get("entry", [{}])[0].get("changes", [{}])[0].get("value", {}).get("contacts", [None])[0]
 
         if message:
-            await process_message(message, contact)
+            await handle_incoming_message(message, contact)
     
     return {"status": "ok"}
