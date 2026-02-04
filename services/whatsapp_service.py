@@ -8,6 +8,9 @@ async def send_message(to: str, body: str, message_id: str):
         "messaging_product": "whatsapp",
         "to": to,
         "text": {"body": body},
+        "context": {
+            "message_id": message_id
+        }
     }
     
     await send_to_whatsapp(data)

@@ -30,8 +30,9 @@ async def handle_incoming(request: Request):
     """
     Recibe mensajes de WhatsApp y los procesa
     """
+    print("WEBHOOK POST RECIBIDO")
     payload = await request.json()
-
+    print("Payload:", payload)
     # Validar que es un mensaje de WhatsApp
     if payload.get("object") == "whatsapp_business_account":
         # Extrae mensaje y contacto

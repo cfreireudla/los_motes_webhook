@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-import requests
+import httpx
 
 load_dotenv()
 
@@ -16,13 +16,24 @@ async def send_to_whatsapp(data: dict):
     url = f"{BASE_URL}/{API_VERSION}/{BUSINESS_PHONE}/messages"
     
     headers = {
-        "Authorization": f"Bearer {API_TOKEN}"
+        "Authorization": f"Bearer {API_TOKEN}",
+        "Content-Type": "application/json"
     }
     
-    try:
-        response = requests.post(url, json=data, headers=headers)
+    # try:
+    #     async with httpx.AsyncClient() as client:
+    #         response = await client.post(url, json=data, headers=headers)
+    #         response.raise_for_status()
+    #         return response.json()
+    # except httpx.RequestError as error:
+    #     print(f"Error al enviar mensaje: {error}")
+    #     return None
+    async with httpx.AsyncClient() as client:
+        response = await client.post(url, json=data, headers=headers)
+
+        print("ENVIANDO A WHATSAPP:", data)
+        print("STATUS:", response.status_code)
+        print("RESPONSE:", response.text)
+
         response.raise_for_status()
         return response.json()
-    except requests.exceptions.RequestException as error:
-        print(f"Error al enviar mensaje: {error}")
-        return None
