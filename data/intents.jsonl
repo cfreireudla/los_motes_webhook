@@ -1,0 +1,479 @@
+{"text": "hola", "label": "saludo"}
+{"text": "buenos días", "label": "saludo"}
+{"text": "buenas tardes", "label": "saludo"}
+{"text": "buenas noches", "label": "saludo"}
+{"text": "hola que tal", "label": "saludo"}
+{"text": "hey", "label": "saludo"}
+{"text": "hola quiero pedir", "label": "saludo"}
+{"text": "buen día necesito información", "label": "saludo"}
+{"text": "holaaa", "label": "saludo"}
+{"text": "ola buenas", "label": "saludo"}
+{"text": "saludos", "label": "saludo"}
+{"text": "qué tal", "label": "saludo"}
+{"text": "hola buenas", "label": "saludo"}
+{"text": "holi", "label": "saludo"}
+{"text": "buenas", "label": "saludo"}
+{"text": "hola hola", "label": "saludo"}
+{"text": "holaa", "label": "saludo"}
+{"text": "muy buenas tardes", "label": "saludo"}
+{"text": "muy buenos días", "label": "saludo"}
+{"text": "hola como estas", "label": "saludo"}
+{"text": "hola buen dia", "label": "saludo"}
+{"text": "que mas", "label": "saludo"}
+{"text": "hola amigos", "label": "saludo"}
+{"text": "buenos dias quisiera informacion", "label": "saludo"}
+{"text": "hi", "label": "saludo"}
+{"text": "hello", "label": "saludo"}
+{"text": "hola necesito ayuda", "label": "saludo"}
+{"text": "buenas noches quisiera pedir", "label": "saludo"}
+{"text": "buenas tardes necesito un pedido", "label": "saludo"}
+{"text": "hola me pueden ayudar", "label": "saludo"}
+{"text": "gracias", "label": "agradecimiento"}
+{"text": "muchas gracias", "label": "agradecimiento"}
+{"text": "te agradezco", "label": "agradecimiento"}
+{"text": "muy amable", "label": "agradecimiento"}
+{"text": "perfecto gracias", "label": "agradecimiento"}
+{"text": "mil gracias", "label": "agradecimiento"}
+{"text": "gracias por la info", "label": "agradecimiento"}
+{"text": "gracias por la información", "label": "agradecimiento"}
+{"text": "gracias por responder", "label": "agradecimiento"}
+{"text": "excelente gracias", "label": "agradecimiento"}
+{"text": "ok gracias", "label": "agradecimiento"}
+{"text": "listo gracias", "label": "agradecimiento"}
+{"text": "dale gracias", "label": "agradecimiento"}
+{"text": "vale gracias", "label": "agradecimiento"}
+{"text": "super gracias", "label": "agradecimiento"}
+{"text": "genial gracias", "label": "agradecimiento"}
+{"text": "buenisimo gracias", "label": "agradecimiento"}
+{"text": "thank you", "label": "agradecimiento"}
+{"text": "thanks", "label": "agradecimiento"}
+{"text": "agradecido", "label": "agradecimiento"}
+{"text": "se agradece", "label": "agradecimiento"}
+{"text": "muchas gracias por la ayuda", "label": "agradecimiento"}
+{"text": "gracias por atenderme", "label": "agradecimiento"}
+{"text": "gracias por su tiempo", "label": "agradecimiento"}
+{"text": "adiós", "label": "despedida"}
+{"text": "hasta luego", "label": "despedida"}
+{"text": "nos vemos", "label": "despedida"}
+{"text": "chao", "label": "despedida"}
+{"text": "hasta pronto", "label": "despedida"}
+{"text": "bye", "label": "despedida"}
+{"text": "nos vemos mañana", "label": "despedida"}
+{"text": "hasta mañana", "label": "despedida"}
+{"text": "que te vaya bien", "label": "despedida"}
+{"text": "adios gracias", "label": "despedida"}
+{"text": "chau", "label": "despedida"}
+{"text": "me despido", "label": "despedida"}
+{"text": "buen día adios", "label": "despedida"}
+{"text": "buenas noches adios", "label": "despedida"}
+{"text": "que estes bien", "label": "despedida"}
+{"text": "cuídate", "label": "despedida"}
+{"text": "hasta la próxima", "label": "despedida"}
+{"text": "nos vemos pronto", "label": "despedida"}
+{"text": "ya me voy adios", "label": "despedida"}
+{"text": "eso es todo gracias adios", "label": "despedida"}
+{"text": "listo eso sería todo adios", "label": "despedida"}
+{"text": "bye bye", "label": "despedida"}
+{"text": "qué venden", "label": "consultar_menu"}
+{"text": "me puede mostrar el menú", "label": "consultar_menu"}
+{"text": "qué productos tienen", "label": "consultar_menu"}
+{"text": "tienen mote con chicharrón", "label": "consultar_menu"}
+{"text": "qué platos ofrecen", "label": "consultar_menu"}
+{"text": "qué hay hoy", "label": "consultar_menu"}
+{"text": "envíeme el menú completo", "label": "consultar_menu"}
+{"text": "hay promociones hoy", "label": "consultar_menu"}
+{"text": "qué tipos de mote hay", "label": "consultar_menu"}
+{"text": "mandeme la carta", "label": "consultar_menu"}
+{"text": "qué opciones tienen para almorzar", "label": "consultar_menu"}
+{"text": "tienen fritada", "label": "consultar_menu"}
+{"text": "venden hornado", "label": "consultar_menu"}
+{"text": "hay churrasco", "label": "consultar_menu"}
+{"text": "tienen sopas", "label": "consultar_menu"}
+{"text": "que caldos tienen", "label": "consultar_menu"}
+{"text": "hay caldo de gallina", "label": "consultar_menu"}
+{"text": "venden yahuarlocro", "label": "consultar_menu"}
+{"text": "tienen guatita", "label": "consultar_menu"}
+{"text": "hay papas con cuero", "label": "consultar_menu"}
+{"text": "tienen locro", "label": "consultar_menu"}
+{"text": "venden empanadas", "label": "consultar_menu"}
+{"text": "hay empanadas de morocho", "label": "consultar_menu"}
+{"text": "tienen postres", "label": "consultar_menu"}
+{"text": "que mousse tienen", "label": "consultar_menu"}
+{"text": "hay bebidas", "label": "consultar_menu"}
+{"text": "que jugos tienen", "label": "consultar_menu"}
+{"text": "tienen limonada", "label": "consultar_menu"}
+{"text": "hay combos", "label": "consultar_menu"}
+{"text": "que promociones hay", "label": "consultar_menu"}
+{"text": "tienen platos mini", "label": "consultar_menu"}
+{"text": "hay porciones pequeñas", "label": "consultar_menu"}
+{"text": "que extras tienen", "label": "consultar_menu"}
+{"text": "hay tortillas", "label": "consultar_menu"}
+{"text": "tienen ambateñito", "label": "consultar_menu"}
+{"text": "hay seco de chivo", "label": "consultar_menu"}
+{"text": "tienen choclo mote", "label": "consultar_menu"}
+{"text": "venden morocho", "label": "consultar_menu"}
+{"text": "hay quimbolitos", "label": "consultar_menu"}
+{"text": "tienen humitas", "label": "consultar_menu"}
+{"text": "hay bolón", "label": "consultar_menu"}
+{"text": "que platos especiales tienen", "label": "consultar_menu"}
+{"text": "platos tradicionales", "label": "consultar_menu"}
+{"text": "muestrame las sopas especiales", "label": "consultar_menu"}
+{"text": "quiero ver los extras", "label": "consultar_menu"}
+{"text": "tienen magdalenazo", "label": "consultar_menu"}
+{"text": "hay mote de la magdalena", "label": "consultar_menu"}
+{"text": "que es el mix tradicional", "label": "consultar_menu"}
+{"text": "tienen menudo", "label": "consultar_menu"}
+{"text": "hay caldo de pata", "label": "consultar_menu"}
+{"text": "tienen caldo de 31", "label": "consultar_menu"}
+{"text": "cuánto cuesta el mote con chicharrón", "label": "consultar_precio"}
+{"text": "precio del mote con cuero", "label": "consultar_precio"}
+{"text": "cuánto vale el menú 1", "label": "consultar_precio"}
+{"text": "cuál es el precio del plato grande", "label": "consultar_precio"}
+{"text": "en cuánto está el mote", "label": "consultar_precio"}
+{"text": "precio del mote grande", "label": "consultar_precio"}
+{"text": "cuánto cuesta para llevar", "label": "consultar_precio"}
+{"text": "me dice el valor del plato pequeño", "label": "consultar_precio"}
+{"text": "cuanto esta el mote con cuero", "label": "consultar_precio"}
+{"text": "valor del menú ejecutivo", "label": "consultar_precio"}
+{"text": "cuanto cuesta el hornado", "label": "consultar_precio"}
+{"text": "precio de la fritada", "label": "consultar_precio"}
+{"text": "cuanto vale el churrasco", "label": "consultar_precio"}
+{"text": "precio del apanado", "label": "consultar_precio"}
+{"text": "cuanto es el yahuarlocro", "label": "consultar_precio"}
+{"text": "valor de las tortillas con fritada", "label": "consultar_precio"}
+{"text": "cuanto cuesta el caldo de gallina", "label": "consultar_precio"}
+{"text": "precio del magdalenazo", "label": "consultar_precio"}
+{"text": "cuanto vale la guatita", "label": "consultar_precio"}
+{"text": "cuanto es el choclo mote con fritada", "label": "consultar_precio"}
+{"text": "precio de las empanadas de morocho", "label": "consultar_precio"}
+{"text": "cuanto cuesta el combo dupla", "label": "consultar_precio"}
+{"text": "valor del mini hornado", "label": "consultar_precio"}
+{"text": "cuanto vale el mousse de chocolate", "label": "consultar_precio"}
+{"text": "precio de la limonada", "label": "consultar_precio"}
+{"text": "cuanto esta el jugo", "label": "consultar_precio"}
+{"text": "cuanto cuesta el combo ideal", "label": "consultar_precio"}
+{"text": "precio del mix tradicional", "label": "consultar_precio"}
+{"text": "vale 6.99 el mote", "label": "consultar_precio"}
+{"text": "cuanto es el hornado completo", "label": "consultar_precio"}
+{"text": "valor de la fritada completa", "label": "consultar_precio"}
+{"text": "cuanto vale el seco de chivo", "label": "consultar_precio"}
+{"text": "precio papas con cuero", "label": "consultar_precio"}
+{"text": "cuanto cuesta el locro tradicional", "label": "consultar_precio"}
+{"text": "valor del caldo de pata", "label": "consultar_precio"}
+{"text": "precio del morocho", "label": "consultar_precio"}
+{"text": "cuanto vale el quimbolito", "label": "consultar_precio"}
+{"text": "cuanto cuesta la humita", "label": "consultar_precio"}
+{"text": "precio del bolon", "label": "consultar_precio"}
+{"text": "a qué hora abren", "label": "consultar_horario"}
+{"text": "cuál es el horario de atención", "label": "consultar_horario"}
+{"text": "atienden los domingos", "label": "consultar_horario"}
+{"text": "hasta qué hora trabajan", "label": "consultar_horario"}
+{"text": "están abiertos ahora", "label": "consultar_horario"}
+{"text": "abren mañana", "label": "consultar_horario"}
+{"text": "trabajan en feriados", "label": "consultar_horario"}
+{"text": "horario del local", "label": "consultar_horario"}
+{"text": "a que hora cierran", "label": "consultar_horario"}
+{"text": "horarios de atencion", "label": "consultar_horario"}
+{"text": "cuando abren", "label": "consultar_horario"}
+{"text": "estan abiertos los sabados", "label": "consultar_horario"}
+{"text": "horario del recreo", "label": "consultar_horario"}
+{"text": "a que hora abre el condado", "label": "consultar_horario"}
+{"text": "horario de la magdalena", "label": "consultar_horario"}
+{"text": "que dias atienden", "label": "consultar_horario"}
+{"text": "abren los lunes", "label": "consultar_horario"}
+{"text": "horario portal shopping", "label": "consultar_horario"}
+{"text": "hasta que hora atienden san luis", "label": "consultar_horario"}
+{"text": "horario gaspar de villaroel", "label": "consultar_horario"}
+{"text": "que hora cierran hoy", "label": "consultar_horario"}
+{"text": "estan abiertos en este momento", "label": "consultar_horario"}
+{"text": "el local esta abierto", "label": "consultar_horario"}
+{"text": "horario de fines de semana", "label": "consultar_horario"}
+{"text": "atienden en la noche", "label": "consultar_horario"}
+{"text": "abren temprano", "label": "consultar_horario"}
+{"text": "desde que hora atienden", "label": "consultar_horario"}
+{"text": "dónde están ubicados", "label": "consultar_ubicacion"}
+{"text": "me pasa la dirección", "label": "consultar_ubicacion"}
+{"text": "en qué sector están", "label": "consultar_ubicacion"}
+{"text": "cuál es su ubicación", "label": "consultar_ubicacion"}
+{"text": "cómo llego al local", "label": "consultar_ubicacion"}
+{"text": "mandeme la ubicacion por favor", "label": "consultar_ubicacion"}
+{"text": "estan cerca del centro", "label": "consultar_ubicacion"}
+{"text": "donde queda el local", "label": "consultar_ubicacion"}
+{"text": "tienen local en el recreo", "label": "consultar_ubicacion"}
+{"text": "hay sucursal en el condado", "label": "consultar_ubicacion"}
+{"text": "donde esta la magdalena", "label": "consultar_ubicacion"}
+{"text": "direccion del local", "label": "consultar_ubicacion"}
+{"text": "cuantos locales tienen", "label": "consultar_ubicacion"}
+{"text": "que sucursales hay", "label": "consultar_ubicacion"}
+{"text": "tienen local en sangolqui", "label": "consultar_ubicacion"}
+{"text": "hay sucursal en san luis", "label": "consultar_ubicacion"}
+{"text": "donde esta el portal shopping", "label": "consultar_ubicacion"}
+{"text": "direccion gaspar de villaroel", "label": "consultar_ubicacion"}
+{"text": "como llego al recreo", "label": "consultar_ubicacion"}
+{"text": "donde estan en quito", "label": "consultar_ubicacion"}
+{"text": "tienen locales en quito", "label": "consultar_ubicacion"}
+{"text": "direccion matriz", "label": "consultar_ubicacion"}
+{"text": "donde queda quisquis y quitus", "label": "consultar_ubicacion"}
+{"text": "local cerca de maldonado", "label": "consultar_ubicacion"}
+{"text": "sucursales disponibles", "label": "consultar_ubicacion"}
+{"text": "mapa de ubicacion", "label": "consultar_ubicacion"}
+{"text": "referencia para llegar", "label": "consultar_ubicacion"}
+{"text": "quiero un mote con chicharrón", "label": "realizar_pedido"}
+{"text": "me da dos motes con cuero", "label": "realizar_pedido"}
+{"text": "deseo pedir un plato grande", "label": "realizar_pedido"}
+{"text": "quiero hacer un pedido", "label": "realizar_pedido"}
+{"text": "envíeme un mote para llevar", "label": "realizar_pedido"}
+{"text": "quiero 3 motes grandes", "label": "realizar_pedido"}
+{"text": "deme un mote pequeño", "label": "realizar_pedido"}
+{"text": "necesito un pedido a domicilio", "label": "realizar_pedido"}
+{"text": "kiero un mote con chicharron", "label": "realizar_pedido"}
+{"text": "mote con cuero para llevar", "label": "realizar_pedido"}
+{"text": "quiero 2 platos grandes para llevar", "label": "realizar_pedido"}
+{"text": "me puede enviar un mote con cuero a domicilio", "label": "realizar_pedido"}
+{"text": "un mote con chicharron por favor", "label": "realizar_pedido"}
+{"text": "dame 4 motes pequeños", "label": "realizar_pedido"}
+{"text": "pedido de un mote grande", "label": "realizar_pedido"}
+{"text": "quiero una fritada completa", "label": "realizar_pedido"}
+{"text": "deme un hornado", "label": "realizar_pedido"}
+{"text": "quiero un churrasco de res", "label": "realizar_pedido"}
+{"text": "me da un apanado de cerdo", "label": "realizar_pedido"}
+{"text": "quiero tortillas con fritada", "label": "realizar_pedido"}
+{"text": "deme un yahuarlocro", "label": "realizar_pedido"}
+{"text": "quiero un caldo de gallina", "label": "realizar_pedido"}
+{"text": "me da un magdalenazo", "label": "realizar_pedido"}
+{"text": "quiero el combo dupla tradicional", "label": "realizar_pedido"}
+{"text": "deme tres empanadas de morocho", "label": "realizar_pedido"}
+{"text": "quiero un mousse de chocolate", "label": "realizar_pedido"}
+{"text": "me da una limonada mediana", "label": "realizar_pedido"}
+{"text": "quiero pedir para llevar", "label": "realizar_pedido"}
+{"text": "quisiera ordenar comida", "label": "realizar_pedido"}
+{"text": "voy a pedir un hornado completo", "label": "realizar_pedido"}
+{"text": "me da un mini churrasco", "label": "realizar_pedido"}
+{"text": "quiero una guatita", "label": "realizar_pedido"}
+{"text": "deme un seco de chivo", "label": "realizar_pedido"}
+{"text": "quiero papas con cuero", "label": "realizar_pedido"}
+{"text": "me da un caldo de pata", "label": "realizar_pedido"}
+{"text": "quiero locro tradicional", "label": "realizar_pedido"}
+{"text": "deme un ambateñito", "label": "realizar_pedido"}
+{"text": "quiero tortillas con caucara", "label": "realizar_pedido"}
+{"text": "me da un choclo mote con fritada", "label": "realizar_pedido"}
+{"text": "quiero morocho con empanadas", "label": "realizar_pedido"}
+{"text": "deme una humita", "label": "realizar_pedido"}
+{"text": "quiero un quimbolito", "label": "realizar_pedido"}
+{"text": "me da un bolon con cafe", "label": "realizar_pedido"}
+{"text": "quiero el mix tradicional", "label": "realizar_pedido"}
+{"text": "deme porcion de mote", "label": "realizar_pedido"}
+{"text": "quiero agregar chorizo", "label": "realizar_pedido"}
+{"text": "me da medio aguacate", "label": "realizar_pedido"}
+{"text": "cambie mi pedido", "label": "modificar_pedido"}
+{"text": "quiero agregar otro plato", "label": "modificar_pedido"}
+{"text": "quite el mote anterior", "label": "modificar_pedido"}
+{"text": "modificar mi orden", "label": "modificar_pedido"}
+{"text": "agregue una bebida", "label": "modificar_pedido"}
+{"text": "puedo cambiar el tamaño", "label": "modificar_pedido"}
+{"text": "agrega un mote mas", "label": "modificar_pedido"}
+{"text": "quiero cambiar mi pedido", "label": "modificar_pedido"}
+{"text": "agregue una porcion extra", "label": "modificar_pedido"}
+{"text": "quiero añadir postre", "label": "modificar_pedido"}
+{"text": "eliminar un plato del pedido", "label": "modificar_pedido"}
+{"text": "quite la bebida", "label": "modificar_pedido"}
+{"text": "cambiar por otro plato", "label": "modificar_pedido"}
+{"text": "agregar empanadas al pedido", "label": "modificar_pedido"}
+{"text": "quiero una porcion de tortillas adicional", "label": "modificar_pedido"}
+{"text": "cambiar el hornado por fritada", "label": "modificar_pedido"}
+{"text": "agregar aguacate por favor", "label": "modificar_pedido"}
+{"text": "ponga un chorizo extra", "label": "modificar_pedido"}
+{"text": "en vez del mote quiero churrasco", "label": "modificar_pedido"}
+{"text": "modificar la cantidad", "label": "modificar_pedido"}
+{"text": "cambiar de grande a pequeño", "label": "modificar_pedido"}
+{"text": "quiero la porcion grande no la mini", "label": "modificar_pedido"}
+{"text": "sí confirmar pedido", "label": "confirmar_pedido"}
+{"text": "confirmo mi orden", "label": "confirmar_pedido"}
+{"text": "está bien así", "label": "confirmar_pedido"}
+{"text": "ok está correcto", "label": "confirmar_pedido"}
+{"text": "proceda con el pedido", "label": "confirmar_pedido"}
+{"text": "todo correcto confirme", "label": "confirmar_pedido"}
+{"text": "si esta perfecto", "label": "confirmar_pedido"}
+{"text": "confirmar", "label": "confirmar_pedido"}
+{"text": "adelante con el pedido", "label": "confirmar_pedido"}
+{"text": "todo bien confirme", "label": "confirmar_pedido"}
+{"text": "si eso es todo", "label": "confirmar_pedido"}
+{"text": "confirmar orden", "label": "confirmar_pedido"}
+{"text": "listo confirmo", "label": "confirmar_pedido"}
+{"text": "dale procede", "label": "confirmar_pedido"}
+{"text": "va confirmo el pedido", "label": "confirmar_pedido"}
+{"text": "ok perfecto asi esta bien", "label": "confirmar_pedido"}
+{"text": "si confirmo todo", "label": "confirmar_pedido"}
+{"text": "correcto asi va", "label": "confirmar_pedido"}
+{"text": "afirmativo", "label": "confirmar_pedido"}
+{"text": "si es correcto", "label": "confirmar_pedido"}
+{"text": "quiero cancelar mi pedido", "label": "cancelar_pedido"}
+{"text": "anule la orden", "label": "cancelar_pedido"}
+{"text": "ya no lo quiero", "label": "cancelar_pedido"}
+{"text": "cancelar todo", "label": "cancelar_pedido"}
+{"text": "me equivoqué cancelar", "label": "cancelar_pedido"}
+{"text": "puede cancelar mi orden", "label": "cancelar_pedido"}
+{"text": "anula el pedido por favor", "label": "cancelar_pedido"}
+{"text": "cancelar", "label": "cancelar_pedido"}
+{"text": "no quiero nada", "label": "cancelar_pedido"}
+{"text": "deshacer pedido", "label": "cancelar_pedido"}
+{"text": "eliminar mi pedido", "label": "cancelar_pedido"}
+{"text": "ya no voy a pedir", "label": "cancelar_pedido"}
+{"text": "cancele todo", "label": "cancelar_pedido"}
+{"text": "olvidelo no quiero", "label": "cancelar_pedido"}
+{"text": "anular orden", "label": "cancelar_pedido"}
+{"text": "ya no me interesa", "label": "cancelar_pedido"}
+{"text": "borrar mi pedido", "label": "cancelar_pedido"}
+{"text": "descartar pedido", "label": "cancelar_pedido"}
+{"text": "no voy a pedir nada", "label": "cancelar_pedido"}
+{"text": "quiero hablar con un humano", "label": "hablar_humano"}
+{"text": "comunicarme con una persona", "label": "hablar_humano"}
+{"text": "necesito hablar con alguien", "label": "hablar_humano"}
+{"text": "quiero un asesor", "label": "hablar_humano"}
+{"text": "pasame con una persona real", "label": "hablar_humano"}
+{"text": "contactar con atencion al cliente", "label": "hablar_humano"}
+{"text": "hay alguien que me pueda ayudar", "label": "hablar_humano"}
+{"text": "necesito asistencia personalizada", "label": "hablar_humano"}
+{"text": "quiero llamar", "label": "hablar_humano"}
+{"text": "como me comunico con ustedes", "label": "hablar_humano"}
+{"text": "numero de telefono", "label": "hablar_humano"}
+{"text": "quiero hablar por telefono", "label": "hablar_humano"}
+{"text": "tienen whatsapp", "label": "hablar_humano"}
+{"text": "linea de atencion", "label": "hablar_humano"}
+{"text": "contacto directo", "label": "hablar_humano"}
+{"text": "necesito el telefono", "label": "hablar_humano"}
+{"text": "como los contacto", "label": "hablar_humano"}
+{"text": "tienen delivery", "label": "delivery"}
+{"text": "hacen envios a domicilio", "label": "delivery"}
+{"text": "entregan a domicilio", "label": "delivery"}
+{"text": "llegan hasta mi casa", "label": "delivery"}
+{"text": "hacen delivery", "label": "delivery"}
+{"text": "envian a domicilio", "label": "delivery"}
+{"text": "puedo pedir para que me lleven", "label": "delivery"}
+{"text": "entrega a domicilio", "label": "delivery"}
+{"text": "cuanto cuesta el envio", "label": "delivery"}
+{"text": "en cuanto tiempo llega el pedido", "label": "delivery"}
+{"text": "donde entregan", "label": "delivery"}
+{"text": "llegan al norte de quito", "label": "delivery"}
+{"text": "hacen envios al sur", "label": "delivery"}
+{"text": "tiempo de entrega", "label": "delivery"}
+{"text": "demora del delivery", "label": "delivery"}
+{"text": "tienen repartidor", "label": "delivery"}
+{"text": "trabajan con uber eats", "label": "delivery"}
+{"text": "estan en rappi", "label": "delivery"}
+{"text": "cuales son los metodos de pago", "label": "metodos_pago"}
+{"text": "aceptan tarjeta de credito", "label": "metodos_pago"}
+{"text": "puedo pagar con efectivo", "label": "metodos_pago"}
+{"text": "aceptan transferencia", "label": "metodos_pago"}
+{"text": "formas de pago", "label": "metodos_pago"}
+{"text": "puedo pagar con tarjeta", "label": "metodos_pago"}
+{"text": "aceptan debito", "label": "metodos_pago"}
+{"text": "pago en efectivo", "label": "metodos_pago"}
+{"text": "como puedo pagar", "label": "metodos_pago"}
+{"text": "tienen datafast", "label": "metodos_pago"}
+{"text": "puedo pagar con visa", "label": "metodos_pago"}
+{"text": "aceptan mastercard", "label": "metodos_pago"}
+{"text": "pago contra entrega", "label": "metodos_pago"}
+{"text": "puedo pasarme a retirar", "label": "retiro_local"}
+{"text": "voy a pasar a recoger", "label": "retiro_local"}
+{"text": "pedido para retirar en local", "label": "retiro_local"}
+{"text": "paso yo mismo a buscar", "label": "retiro_local"}
+{"text": "retiro en el local", "label": "retiro_local"}
+{"text": "para llevar", "label": "retiro_local"}
+{"text": "pedido para llevar", "label": "retiro_local"}
+{"text": "voy a recogerlo personalmente", "label": "retiro_local"}
+{"text": "en cuanto tiempo puedo ir a retirar", "label": "retiro_local"}
+{"text": "quiero pasar a buscar mi pedido", "label": "retiro_local"}
+{"text": "tienen reservaciones", "label": "reservacion"}
+{"text": "quiero reservar una mesa", "label": "reservacion"}
+{"text": "puedo hacer una reserva", "label": "reservacion"}
+{"text": "reservar para 10 personas", "label": "reservacion"}
+{"text": "quiero reservar para un evento", "label": "reservacion"}
+{"text": "tienen espacio para cumpleaños", "label": "reservacion"}
+{"text": "se puede reservar el local", "label": "reservacion"}
+{"text": "quiero celebrar un evento", "label": "reservacion"}
+{"text": "tienen salon para eventos", "label": "reservacion"}
+{"text": "reservacion para grupo grande", "label": "reservacion"}
+{"text": "quiero reservar para mañana", "label": "reservacion"}
+{"text": "hacer reserva de mesa", "label": "reservacion"}
+{"text": "tienen app", "label": "app_movil"}
+{"text": "puedo pedir por la aplicacion", "label": "app_movil"}
+{"text": "como descargo la app", "label": "app_movil"}
+{"text": "tienen aplicacion movil", "label": "app_movil"}
+{"text": "app de los motes", "label": "app_movil"}
+{"text": "donde descargo motes app", "label": "app_movil"}
+{"text": "esta en play store", "label": "app_movil"}
+{"text": "tienen app para iphone", "label": "app_movil"}
+{"text": "link de la aplicacion", "label": "app_movil"}
+{"text": "que tan rica es la comida", "label": "opinion_comida"}
+{"text": "es buena la fritada", "label": "opinion_comida"}
+{"text": "que tal es el mote", "label": "opinion_comida"}
+{"text": "recomiendas el hornado", "label": "opinion_comida"}
+{"text": "cual es el plato mas pedido", "label": "opinion_comida"}
+{"text": "que me recomiendas", "label": "opinion_comida"}
+{"text": "cual es el plato estrella", "label": "opinion_comida"}
+{"text": "que es lo mejor del menu", "label": "opinion_comida"}
+{"text": "esta rico el yahuarlocro", "label": "opinion_comida"}
+{"text": "cual es el favorito de la gente", "label": "opinion_comida"}
+{"text": "historia de los motes", "label": "info_empresa"}
+{"text": "desde cuando existen", "label": "info_empresa"}
+{"text": "cuando se fundaron", "label": "info_empresa"}
+{"text": "quien es el dueño", "label": "info_empresa"}
+{"text": "cuentenme de ustedes", "label": "info_empresa"}
+{"text": "quienes son los motes de la magdalena", "label": "info_empresa"}
+{"text": "historia del restaurante", "label": "info_empresa"}
+{"text": "desde que año trabajan", "label": "info_empresa"}
+{"text": "como nacio el negocio", "label": "info_empresa"}
+{"text": "quiero trabajar con ustedes", "label": "trabajo"}
+{"text": "estan contratando", "label": "trabajo"}
+{"text": "hay vacantes disponibles", "label": "trabajo"}
+{"text": "como envio mi hoja de vida", "label": "trabajo"}
+{"text": "donde dejo mi curriculum", "label": "trabajo"}
+{"text": "necesitan personal", "label": "trabajo"}
+{"text": "buscan empleados", "label": "trabajo"}
+{"text": "tienen ofertas de trabajo", "label": "trabajo"}
+{"text": "quiero aplicar para trabajo", "label": "trabajo"}
+{"text": "tengo una queja", "label": "queja"}
+{"text": "quiero hacer un reclamo", "label": "queja"}
+{"text": "la comida no estaba buena", "label": "queja"}
+{"text": "llego frio el pedido", "label": "queja"}
+{"text": "me cobraron mas", "label": "queja"}
+{"text": "mal servicio", "label": "queja"}
+{"text": "el pedido llego incompleto", "label": "queja"}
+{"text": "quiero presentar una queja formal", "label": "queja"}
+{"text": "no estoy satisfecho", "label": "queja"}
+{"text": "hubo un problema con mi pedido", "label": "queja"}
+{"text": "mañana llueve", "label": "fallback"}
+{"text": "qué opinas del fútbol", "label": "fallback"}
+{"text": "cuál es tu color favorito", "label": "fallback"}
+{"text": "cuéntame un chiste", "label": "fallback"}
+{"text": "hablas inglés", "label": "fallback"}
+{"text": "quien gano el partido", "label": "fallback"}
+{"text": "eres humano", "label": "fallback"}
+{"text": "me ayudas con matematicas", "label": "fallback"}
+{"text": "como esta el clima", "label": "fallback"}
+{"text": "cuanto es 2 mas 2", "label": "fallback"}
+{"text": "que dia es hoy", "label": "fallback"}
+{"text": "que hora es", "label": "fallback"}
+{"text": "quien es el presidente", "label": "fallback"}
+{"text": "cuentame algo interesante", "label": "fallback"}
+{"text": "tienes novio", "label": "fallback"}
+{"text": "cuantos años tienes", "label": "fallback"}
+{"text": "eres inteligencia artificial", "label": "fallback"}
+{"text": "jajaja", "label": "fallback"}
+{"text": "ok", "label": "fallback"}
+{"text": "ya", "label": "fallback"}
+{"text": "ah", "label": "fallback"}
+{"text": "mmm", "label": "fallback"}
+{"text": "???", "label": "fallback"}
+{"text": "no entiendo", "label": "fallback"}
+{"text": "asdfgh", "label": "fallback"}
+{"text": "prueba", "label": "fallback"}
+{"text": "test", "label": "fallback"}
+{"text": "1234", "label": "fallback"}
+{"text": "que significa la vida", "label": "fallback"}
+{"text": "me das tu numero", "label": "fallback"}
+{"text": "venden pizzas", "label": "fallback"}
+{"text": "tienen hamburguesas", "label": "fallback"}
+{"text": "hay sushi", "label": "fallback"}
+{"text": "venden tacos", "label": "fallback"}

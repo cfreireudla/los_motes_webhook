@@ -2,3 +2,17 @@ fastapi[standard]
 python-dotenv
 httpx
 sqlalchemy
+
+# NLP y Machine Learning
+spacy
+scikit-learn
+pandas
+numpy
+
+# Notebooks
+jupyter
+matplotlib
+seaborn
+
+# Gemini API (opcional)
+google-generativeai

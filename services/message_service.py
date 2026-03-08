@@ -9,6 +9,7 @@ from services.menu_service import (
 )
 from services.user_state_service import get_or_create_user, clear_user_cart
 from services.interactive_messages import send_text_message
+from services.ai_service import process_with_ai, get_ai_service
 
 async def process_message(message: dict, contact: dict):
     """
@@ -26,17 +27,30 @@ async def process_message(message: dict, contact: dict):
         user = get_or_create_user(db, phone_number)
         sender_name = get_sender_name(contact)
         
-        # Manejar mensajes de texto (saludos o mensajes generales)
+        # Manejar mensajes de texto con IA
         if message_type == "text":
-            text_body = message.get("text", {}).get("body", "").lower().strip()
+            text_body = message.get("text", {}).get("body", "").strip()
             
-            if is_greeting(text_body):
-                await send_welcome_message(phone_number, sender_name, db)
-            else:
-                await send_text_message(
-                    phone_number,
-                    "Por favor, utiliza los botones del menú para realizar tu pedido. Escribe 'hola' para comenzar."
+            # Verificar si el clasificador está listo
+            ai_service = get_ai_service()
+            if ai_service.is_ready():
+                # Procesar con IA
+                result = await process_with_ai(
+                    phone_number=phone_number,
+                    text=text_body,
+                    db=db,
+                    sender_name=sender_name
                 )
+                print(f"🤖 IA: {result.intent} ({result.confidence:.1%})")
+            else:
+                # Fallback si el modelo no está cargado
+                if is_greeting(text_body.lower()):
+                    await send_welcome_message(phone_number, sender_name, db)
+                else:
+                    await send_text_message(
+                        phone_number,
+                        "Por favor, utiliza los botones del menú para realizar tu pedido. Escribe 'hola' para comenzar."
+                    )
         
         # Manejar respuestas a botones
         elif message_type == "interactive":
