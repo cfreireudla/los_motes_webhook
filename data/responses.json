@@ -1,0 +1,144 @@
+{
+  "saludo": {
+    "responses": [
+      "¡Hola! 👋 Bienvenido a *Los Motes de la Magdalena*. ¿En qué puedo ayudarte hoy?",
+      "¡Buenas! 🌮 Soy el asistente de Los Motes. ¿Qué te gustaría ordenar?",
+      "¡Hola! Gracias por contactarnos. ¿Te gustaría ver nuestro menú o hacer un pedido?"
+    ],
+    "action": "show_menu_button"
+  },
+  "despedida": {
+    "responses": [
+      "¡Hasta pronto! 👋 Gracias por preferirnos. ¡Te esperamos!",
+      "¡Que tengas excelente día! 🌮 Vuelve cuando quieras.",
+      "¡Chao! Gracias por tu visita. ¡Nos vemos pronto!"
+    ],
+    "action": null
+  },
+  "agradecimiento": {
+    "responses": [
+      "¡De nada! 😊 Es un placer atenderte.",
+      "¡Con gusto! Si necesitas algo más, aquí estamos.",
+      "¡Para servirte! 🙌 ¿Hay algo más en que pueda ayudarte?"
+    ],
+    "action": null
+  },
+  "consultar_menu": {
+    "responses": [
+      "¡Claro! 📋 Te muestro nuestro menú. Tenemos deliciosos motes, caldos y más."
+    ],
+    "action": "show_categories"
+  },
+  "consultar_precio": {
+    "responses": [
+      "Los precios varían según el platillo. Te muestro las categorías para que veas los precios de cada producto."
+    ],
+    "action": "show_categories"
+  },
+  "consultar_horario": {
+    "responses": [
+      "🕐 *Nuestros horarios:*\n\n📅 Lunes a Viernes: 7:00 AM - 3:00 PM\n📅 Sábados: 7:00 AM - 4:00 PM\n📅 Domingos: 8:00 AM - 3:00 PM\n\n¡Te esperamos!"
+    ],
+    "action": null
+  },
+  "consultar_ubicacion": {
+    "responses": [
+      "📍 *Nuestra ubicación:*\n\nEstamos en la *Calle Principal #123, Barrio La Magdalena*\n\n🗺️ Punto de referencia: Frente al parque central\n\n¡Te esperamos con los mejores motes de la zona!"
+    ],
+    "action": null
+  },
+  "realizar_pedido": {
+    "responses": [
+      "¡Perfecto! 🛒 Vamos a armar tu pedido. Primero selecciona una categoría."
+    ],
+    "action": "start_order_flow"
+  },
+  "modificar_pedido": {
+    "responses": [
+      "Claro, puedes modificar tu pedido actual. ¿Qué te gustaría cambiar?",
+      "Sin problema. Dime qué deseas agregar o quitar de tu pedido."
+    ],
+    "action": "show_current_order"
+  },
+  "confirmar_pedido": {
+    "responses": [
+      "¡Excelente! Vamos a confirmar tu pedido. Te muestro el resumen."
+    ],
+    "action": "show_order_summary"
+  },
+  "cancelar_pedido": {
+    "responses": [
+      "Entendido. He cancelado tu pedido actual. ¿Deseas empezar uno nuevo?",
+      "Tu pedido ha sido cancelado. Si cambias de opinión, aquí estamos para atenderte."
+    ],
+    "action": "cancel_order"
+  },
+  "hablar_humano": {
+    "responses": [
+      "Entiendo que prefieres hablar con una persona. 👤\n\nPuedes llamarnos al *📞 +57 300 123 4567* o esperar a que un asesor te contacte.\n\n⏰ Horario de atención: Lunes a Sábado 8AM - 6PM"
+    ],
+    "action": "request_human"
+  },
+  "delivery": {
+    "responses": [
+      "🛵 *Servicio de Delivery:*\n\n✅ Sí hacemos entregas a domicilio\n📍 Cobertura: Centro y barrios aledaños\n💰 Costo de envío: Desde $3,000 (varía según distancia)\n⏱️ Tiempo estimado: 30-45 minutos\n\n¿Te gustaría hacer un pedido para delivery?"
+    ],
+    "action": "show_menu_button"
+  },
+  "metodos_pago": {
+    "responses": [
+      "💳 *Métodos de pago aceptados:*\n\n✅ Efectivo\n✅ Nequi\n✅ Daviplata\n✅ Transferencia Bancolombia\n\n📌 Pagos con tarjeta solo disponibles en local."
+    ],
+    "action": null
+  },
+  "retiro_local": {
+    "responses": [
+      "🏪 *Retiro en local:*\n\n✅ Sí puedes recoger tu pedido\n📍 Dirección: Calle Principal #123, Barrio La Magdalena\n⏱️ Tiempo de preparación: 15-20 minutos\n\n¡Te esperamos!"
+    ],
+    "action": null
+  },
+  "reservacion": {
+    "responses": [
+      "📅 *Reservaciones:*\n\nPara grupos grandes (más de 6 personas) te recomendamos reservar con anticipación.\n\n📞 Llámanos al +57 300 123 4567\n📱 O escríbenos indicando:\n   • Fecha y hora\n   • Número de personas\n   • Nombre de la reserva"
+    ],
+    "action": null
+  },
+  "app_movil": {
+    "responses": [
+      "📱 Por el momento no contamos con aplicación móvil, pero puedes hacer tus pedidos por este chat de WhatsApp de forma fácil y rápida. ¿Te gustaría ordenar algo?"
+    ],
+    "action": "show_menu_button"
+  },
+  "opinion_comida": {
+    "responses": [
+      "¡Nos encanta saber tu opinión! 💬\n\nSi disfrutaste tu comida, déjanos una reseña en Google. Si tienes sugerencias, escríbelas aquí y las tomaremos en cuenta.\n\n¡Tu opinión nos ayuda a mejorar! ⭐"
+    ],
+    "action": null
+  },
+  "info_empresa": {
+    "responses": [
+      "🌮 *Los Motes de la Magdalena*\n\nSomos un restaurante tradicional especializado en motes, caldos y comida típica de la región.\n\n🏆 Más de 15 años sirviendo los mejores motes\n👨‍👩‍👧‍👦 Negocio familiar\n❤️ Recetas tradicionales\n\n¡Ven a probar el auténtico sabor de nuestra tierra!"
+    ],
+    "action": null
+  },
+  "trabajo": {
+    "responses": [
+      "👔 *¿Quieres trabajar con nosotros?*\n\nEnvía tu hoja de vida al correo:\n📧 empleos@losmotesdelamagdalena.com\n\nO acércate personalmente a nuestro local con tu documentación.\n\n¡Gracias por tu interés!"
+    ],
+    "action": null
+  },
+  "queja": {
+    "responses": [
+      "Lamentamos que hayas tenido una mala experiencia. 😔\n\nTu comentario es muy importante para nosotros. Por favor cuéntanos qué sucedió y haremos lo posible por solucionarlo.\n\n📞 También puedes llamar al +57 300 123 4567 para atención directa."
+    ],
+    "action": "request_human"
+  },
+  "fallback": {
+    "responses": [
+      "No estoy seguro de entender tu mensaje. 🤔 ¿Podrías reformularlo?",
+      "Disculpa, no logré entender. ¿Quieres ver el menú o hacer un pedido?",
+      "No tengo una respuesta para eso. ¿Te puedo ayudar con algo del menú?"
+    ],
+    "action": "show_menu_button"
+  }
+}
