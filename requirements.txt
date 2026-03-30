@@ -14,5 +14,13 @@ jupyter
 matplotlib
 seaborn
 
+# Interpretabilidad y Reportes
+lime
+python-docx
+
 # Gemini API (opcional)
 google-generativeai
+
+# Testing
+pytest
+pytest-cov
