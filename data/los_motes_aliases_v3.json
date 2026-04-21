@@ -1,0 +1,230 @@
+{
+  "productos_oficiales": {
+    "Agua Personal": {
+      "aliases": [
+        "agua personal"
+      ]
+    },
+    "Ambateñito": {
+      "aliases": [
+        "ambateñito"
+      ]
+    },
+    "Apanado de Cerdo": {
+      "aliases": [
+        "apanado de cerdo"
+      ]
+    },
+    "Apanado de Res": {
+      "aliases": [
+        "apanado de res"
+      ]
+    },
+    "Caldo de 31": {
+      "aliases": [
+        "caldo de 31"
+      ]
+    },
+    "Caldo de Gallina": {
+      "aliases": [
+        "caldo de gallina"
+      ]
+    },
+    "Caldo de Pata": {
+      "aliases": [
+        "caldo de pata"
+      ]
+    },
+    "Choclo Mote con Fritada": {
+      "aliases": [
+        "choclo mote con fritada"
+      ]
+    },
+    "Churrasco de Cerdo": {
+      "aliases": [
+        "churrasco de cerdo"
+      ]
+    },
+    "Churrasco de Res": {
+      "aliases": [
+        "churrasco con carne de res",
+        "churrasco de res"
+      ]
+    },
+    "Combo Compartir": {
+      "aliases": [
+        "combo compartir"
+      ]
+    },
+    "Combo Dupla Personal": {
+      "aliases": [
+        "combo dupla personal"
+      ]
+    },
+    "Combo Ideal": {
+      "aliases": [
+        "combo ideal"
+      ]
+    },
+    "Combo Tradición 1": {
+      "aliases": [
+        "combo tradición 1",
+        "combo tradicion 1"
+      ]
+    },
+    "Combo Tradición 2": {
+      "aliases": [
+        "combo tradición 2",
+        "combo tradicion 2"
+      ]
+    },
+    "Fritada Completa": {
+      "aliases": [
+        "fritada completa"
+      ]
+    },
+    "Fritada Tradicional": {
+      "aliases": [
+        "fritada tradicional"
+      ]
+    },
+    "Fuze Tea": {
+      "aliases": [
+        "fuze tea"
+      ]
+    },
+    "Gaseo Personal": {
+      "aliases": [
+        "gaseo personal",
+        "gaseosa personal",
+        "cola"
+      ]
+    },
+    "Guatita": {
+      "aliases": [
+        "guatita"
+      ]
+    },
+    "Hornado": {
+      "aliases": [
+        "hornado"
+      ]
+    },
+    "Hornado Completo": {
+      "aliases": [
+        "hornado completo"
+      ]
+    },
+    "Jugo Mediano": {
+      "aliases": [
+        "jugo",
+        "jugo mediano"
+      ]
+    },
+    "Limonada Mediana": {
+      "aliases": [
+        "limonada",
+        "limonada mediana"
+      ]
+    },
+    "Magchicha Familiar": {
+      "aliases": [
+        "magchicha familiar"
+      ]
+    },
+    "Magchicha Mediana": {
+      "aliases": [
+        "magchicha mediana",
+        "chicha"
+      ]
+    },
+    "Magdalenazo": {
+      "aliases": [
+        "magdalenazo"
+      ]
+    },
+    "Menudo de la Magdalena": {
+      "aliases": [
+        "menudo",
+        "menudo de la magdalena"
+      ]
+    },
+    "Mini Hornado": {
+      "aliases": [
+        "mini hornado"
+      ]
+    },
+    "Mini Menudo de la Magdalena": {
+      "aliases": [
+        "mini menudo"
+      ]
+    },
+    "Mixto": {
+      "aliases": [
+        "mixto"
+      ]
+    },
+    "Mote de la Magdalena": {
+      "aliases": [
+        "mote",
+        "mote de la magdalena"
+      ]
+    },
+    "Papa con Librillo": {
+      "aliases": [
+        "papa con librillo"
+      ]
+    },
+    "Papas con Cuero": {
+      "aliases": [
+        "papas con cuero"
+      ]
+    },
+    "Seco de Chivo": {
+      "aliases": [
+        "seco de chivo"
+      ]
+    },
+    "Tortillas con Caucara": {
+      "aliases": [
+        "tortilla con caucara",
+        "tortillas con caucara"
+      ]
+    },
+    "Tortillas con Chorizo": {
+      "aliases": [
+        "tortillas con chorizo"
+      ]
+    },
+    "Tortillas con Fritada": {
+      "aliases": [
+        "tortillas con fritada"
+      ]
+    }
+  },
+  "extras": {
+    "aji": "Ají",
+    "ají": "Ají",
+    "aji de mani": "Ají de Maní",
+    "ají de maní": "Ají de Maní",
+    "agrio": "Agrio",
+    "mapaguira": "Mapaguira",
+    "chorizo": "Chorizo",
+    "maduros fritos": "Maduros Fritos",
+    "crujiente": "Crujiente",
+    "aguacate": "½ Aguacate",
+    "1/2 aguacate": "½ Aguacate",
+    "morcilla": "Porción de Morcilla",
+    "arroz": "Porción de Arroz",
+    "mote": "Porción de Mote",
+    "choclo mote": "Porción de Choclo Mote",
+    "tortillas": "Porción de Tortillas"
+  },
+  "presas_caldo_de_gallina": [
+    "pechuga",
+    "muslo",
+    "presa",
+    "ala"
+  ],
+  "menu_url": "https://www.losmotesdelamagdalena.com/menu/"
+}

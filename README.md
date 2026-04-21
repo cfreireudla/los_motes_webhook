@@ -71,6 +71,102 @@ los_motes_webhook/
 
 ---
 
+## 🏗️ Arquitectura End-to-End
+
+```text
+┌──────────────────────┐
+│       USUARIO        │
+│ (WhatsApp App móvil) │
+└──────────┬───────────┘
+     │ 1) Mensaje
+     ▼
+┌──────────────────────────────┐
+│   WHATSAPP CLOUD / META API  │
+│ (eventos webhook entrantes)  │
+└──────────┬───────────────────┘
+     │ 2) POST /webhook
+     ▼
+┌──────────────────────────────────────────┐
+│ FastAPI App (app.py + webhook_routes.py)│
+│ - Verifica token (GET /webhook)          │
+│ - Recibe payload WhatsApp (POST /webhook)│
+└──────────┬───────────────────────────────┘
+     │ 3) process_message(...)
+     ▼
+┌──────────────────────────────┐
+│ message_service.py           │
+│ - Detecta tipo de mensaje    │
+│ - Crea sesión DB             │
+│ - Ruta a IA o interactivos   │
+└───────┬──────────────────────┘
+  │
+  ├───────────────────────────────┐
+  │                               │
+  ▼                               ▼
+┌──────────────────────────┐   ┌──────────────────────────┐
+│ ai_service.py            │   │ interactive/list buttons │
+│ (texto libre)            │   │ (menu_service.py)        │
+└──────────┬───────────────┘   └──────────┬───────────────┘
+     │ 4) classify(text)            │
+     ▼                              │
+┌──────────────────────────┐              │
+│ intent_classifier.py     │              │
+│ spaCy model local        │              │
+│ + data/responses.json    │              │
+└──────────┬───────────────┘              │
+     │                              │
+     ├── if intent=realizar_pedido ─────► order_parser.py
+     │                                   (productos, cantidades,
+     │                                    extras, modificadores)
+     │
+     ├── if fallback + baja confianza ──► gemini_service.py
+     │                                   (respuesta generativa)
+     │
+     ▼
+┌────────────────────────────────────────────────┐
+│ Acción final                                   │
+│ - send_menu_link / show_cart / cancel / etc.  │
+│ - Construcción de respuesta al usuario         │
+└──────────┬─────────────────────────────────────┘
+     │ 5) enviar mensaje
+     ▼
+┌──────────────────────────────┐
+│ interactive_messages.py /    │
+│ send_message_service.py      │
+└──────────┬───────────────────┘
+     │ 6) WhatsApp API
+     ▼
+┌──────────────────────┐
+│       USUARIO        │
+│ recibe respuesta     │
+└──────────────────────┘
+
+
+Persistencia y artefactos de IA (cross-cutting):
+
+  database/database.py + database/models.py
+    ▲
+    │ (estado usuario, carrito, pedidos, productos)
+    │
+  services/user_state_service.py + services/menu_service.py
+
+  data/intents.jsonl + notebooks/* + models/intent_classifier/
+    ▲
+    │ (entrenamiento offline spaCy y modelo desplegado)
+    │
+  services/intent_classifier.py
+```
+
+Flujo resumido:
+
+1. Usuario escribe en WhatsApp.
+2. Meta envía webhook a FastAPI.
+3. Se procesa el mensaje y se consulta IA/estado.
+4. Se decide acción: parser de pedido, respuesta por intent o fallback Gemini.
+5. Se envía la respuesta por WhatsApp y se actualiza estado/pedido en base de datos.
+
+---
+
 ## 🚀 Instalación
 
 ### 1. Clonar repositorio
@@ -108,9 +204,15 @@ cp .env.example .env
 Editar `.env` con tus credenciales:
 
 ```env
-WHATSAPP_TOKEN=tu_token_de_whatsapp
-WHATSAPP_PHONE_NUMBER_ID=tu_phone_number_id
-VERIFY_TOKEN=tu_token_de_verificacion
+WEBHOOK_VERIFY_TOKEN=tu_token_de_verificacion
+API_TOKEN=tu_token_de_whatsapp
+BUSINESS_PHONE=tu_phone_number_id
+API_VERSION=version_api_whatsapp
+BASE_URL=webhook_url_base
+DATABASE_URL=path_database
+GEMINI_API_KEY=token_de_gemini_fallback
+GEMINI_MODEL=modelo_gemini_fallback
+GEMINI_CONFIDENCE_THRESHOLD=umbral_confianza
 ```
 
 ### 5. Entrenar el modelo de IA
@@ -174,7 +276,7 @@ ngrok http 8000
 | `hablar_humano` | Atención humana | "quiero hablar con alguien" |
 | `fallback` | No entendido | (cualquier otro mensaje) |
 
-Ver todos los 22 intents en `data/responses.json`.
+Ver todos los 25 intents en `data/responses.json`.
 
 ---
 
@@ -198,41 +300,6 @@ Ver todos los 22 intents en `data/responses.json`.
 | `GET` | `/webhook` | Verificación de Meta |
 | `POST` | `/webhook` | Recibir mensajes de WhatsApp |
 | `GET` | `/` | Health check |
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Pruebas unitarias con pytest
-- [ ] CI/CD con GitHub Actions
-- [ ] Deploy a producción (Railway/Render)
-- [ ] Dashboard de métricas
-- [ ] Integración con sistema POS
-- [ ] Notificaciones a administrador
-
----
-
-## 🤝 Contribuir
-
-1. Fork el repositorio
-2. Crear rama feature (`git checkout -b feature/nueva-funcionalidad`)
-3. Commit cambios (`git commit -m 'Agregar nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-5. Abrir Pull Request
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver [LICENSE](LICENSE) para más detalles.
-
----
-
-## 👨‍💻 Autor
-
-**Tu Nombre**
-
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
 
 ---
 

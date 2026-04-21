@@ -1,11 +1,11 @@
 {
   "saludo": {
     "responses": [
-      "¡Hola! 👋 Bienvenido a *Los Motes de la Magdalena*. ¿En qué puedo ayudarte hoy?",
-      "¡Buenas! 🌮 Soy el asistente de Los Motes. ¿Qué te gustaría ordenar?",
-      "¡Hola! Gracias por contactarnos. ¿Te gustaría ver nuestro menú o hacer un pedido?"
+      "¡Hola! 👋 Bienvenido a *Los Motes de la Magdalena*\n\n📋 Revisa nuestro menú aquí:\nhttps://www.losmotesdelamagdalena.com/menu/\n\n✍️ Cuando estés listo, escríbeme tu pedido directamente. Por ejemplo: *2 hornados y una limonada*",
+      "¡Buenas! 🌮 Soy el asistente de *Los Motes de la Magdalena*.\n\n📋 Mira nuestro menú completo:\nhttps://www.losmotesdelamagdalena.com/menu/\n\n✍️ Escríbeme lo que deseas pedir.",
+      "¡Hola! Soy tu asistente de *Los Motes de la Magdalena*. Gracias por contactarnos 🙌\n\n📋 Menú: https://www.losmotesdelamagdalena.com/menu/\n\n✍️ Dime qué te gustaría ordenar."
     ],
-    "action": "show_menu_button"
+    "action": "send_menu_link"
   },
   "despedida": {
     "responses": [
@@ -25,15 +25,15 @@
   },
   "consultar_menu": {
     "responses": [
-      "¡Claro! 📋 Te muestro nuestro menú. Tenemos deliciosos motes, caldos y más."
+      "¡Claro! 📋 Aquí tienes nuestro menú completo:\nhttps://www.losmotesdelamagdalena.com/menu/\n\n🌮 Tenemos deliciosos motes, caldos, hornados y más.\n\n✍️ Cuando decidas, escríbeme tu pedido directamente."
     ],
-    "action": "show_categories"
+    "action": "send_menu_link"
   },
   "consultar_precio": {
     "responses": [
-      "Los precios varían según el platillo. Te muestro las categorías para que veas los precios de cada producto."
+      "💰 Los precios varían según el platillo.\n\n📋 Revisa nuestro menú con precios aquí:\nhttps://www.losmotesdelamagdalena.com/menu/\n\n✍️ Dime qué te interesa y te confirmo el precio."
     ],
-    "action": "show_categories"
+    "action": "send_menu_link"
   },
   "consultar_horario": {
     "responses": [
@@ -49,9 +49,9 @@
   },
   "realizar_pedido": {
     "responses": [
-      "¡Perfecto! 🛒 Vamos a armar tu pedido. Primero selecciona una categoría."
+      "¡Claro! 🛒 ¿Qué te gustaría ordenar?\n\n📋 Revisa nuestro menú: https://www.losmotesdelamagdalena.com/menu/\n\n✍️ Escríbeme tu pedido completo, por ejemplo:\n*2 menudos, 1 hornado y una limonada*"
     ],
-    "action": "start_order_flow"
+    "action": "send_menu_link"
   },
   "modificar_pedido": {
     "responses": [
@@ -81,15 +81,15 @@
   },
   "delivery": {
     "responses": [
-      "🛵 *Servicio de Delivery:*\n\n✅ Sí hacemos entregas a domicilio\n📍 Cobertura: Centro y barrios aledaños\n💰 Costo de envío: Desde $3,000 (varía según distancia)\n⏱️ Tiempo estimado: 30-45 minutos\n\n¿Te gustaría hacer un pedido para delivery?"
+      "🛵 *Servicio de Delivery:*\n\n✅ Sí hacemos entregas a domicilio\n📍 Cobertura: Centro y barrios aledaños\n💰 Costo de envío: Desde $3,000 (varía según distancia)\n⏱️ Tiempo estimado: 30-45 minutos\n\n📋 Menú: https://www.losmotesdelamagdalena.com/menu/\n\n✍️ Escríbeme tu pedido cuando estés listo."
     ],
-    "action": "show_menu_button"
+    "action": "send_menu_link"
   },
   "metodos_pago": {
     "responses": [
-      "💳 *Métodos de pago aceptados:*\n\n✅ Efectivo\n✅ Nequi\n✅ Daviplata\n✅ Transferencia Bancolombia\n\n📌 Pagos con tarjeta solo disponibles en local."
+      "💳 *Métodos de pago aceptados:*\n\n✅ Transferencia\n✅ Efectivo\n✅ Tarjeta de Crédito\n✅ De Una\n\n📍 Ayúdame con tu dirección para la entrega del pedido."
     ],
-    "action": null
+    "action": "request_location"
   },
   "retiro_local": {
     "responses": [
@@ -105,9 +105,9 @@
   },
   "app_movil": {
     "responses": [
-      "📱 Por el momento no contamos con aplicación móvil, pero puedes hacer tus pedidos por este chat de WhatsApp de forma fácil y rápida. ¿Te gustaría ordenar algo?"
+      "📱 Por el momento no contamos con aplicación móvil, pero puedes hacer tus pedidos por este chat de WhatsApp.\n\n📋 Menú: https://www.losmotesdelamagdalena.com/menu/\n\n✍️ Escríbeme lo que deseas pedir."
     ],
-    "action": "show_menu_button"
+    "action": "send_menu_link"
   },
   "opinion_comida": {
     "responses": [
@@ -133,12 +133,33 @@
     ],
     "action": "request_human"
   },
+  "correccion_direccion": {
+    "responses": [
+      "Entendido, necesitas cambiar la dirección de entrega. 📍\n\n¿Podrías compartirme tu ubicación actual o indicarme la nueva dirección?",
+      "Sin problema, vamos a actualizar la dirección. 📍 Por favor envíame tu nueva ubicación o escríbeme la dirección correcta."
+    ],
+    "action": "request_location"
+  },
+  "seguimiento_pedido": {
+    "responses": [
+      "Entiendo que quieres saber el estado de tu pedido. 🔍\n\nPermíteme revisar... Un momento por favor.",
+      "Voy a verificar el estado de tu pedido enseguida. ⏳ Un asesor te contactará con la información."
+    ],
+    "action": "request_human"
+  },
+  "datos_factura": {
+    "responses": [
+      "¡Perfecto! 🧾 Para la factura, ¿me confirmas si usamos los mismos datos de tu último pedido?",
+      "Entendido, registraré los datos para tu factura. 🧾 ¿Me confirmas nombre y cédula/RUC?"
+    ],
+    "action": null
+  },
   "fallback": {
     "responses": [
-      "No estoy seguro de entender tu mensaje. 🤔 ¿Podrías reformularlo?",
-      "Disculpa, no logré entender. ¿Quieres ver el menú o hacer un pedido?",
-      "No tengo una respuesta para eso. ¿Te puedo ayudar con algo del menú?"
+      "No estoy seguro de entender tu mensaje. 🤔\n\n📋 Revisa nuestro menú: https://www.losmotesdelamagdalena.com/menu/\n\n✍️ Escríbeme tu pedido directamente, por ejemplo: *1 mote con chicharrón*",
+      "Disculpa, no logré entender. 😅\n\n📋 Menú: https://www.losmotesdelamagdalena.com/menu/\n\n✍️ Dime qué deseas ordenar.",
+      "No tengo una respuesta para eso.\n\n📋 ¿Te ayudo con un pedido? Menú: https://www.losmotesdelamagdalena.com/menu/"
     ],
-    "action": "show_menu_button"
+    "action": "send_menu_link"
   }
 }
