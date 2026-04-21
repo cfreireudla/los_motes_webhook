@@ -477,3 +477,136 @@
 {"text": "tienen hamburguesas", "label": "fallback"}
 {"text": "hay sushi", "label": "fallback"}
 {"text": "venden tacos", "label": "fallback"}
+{"text": "Buenas tardes, una pregunta puedo pagar un domicilio con tarjeta?", "label": "metodos_pago"}
+{"text": "Me ayuda con un combo ideal", "label": "consultar_menu"}
+{"text": "Limonada", "label": "realizar_pedido"}
+{"text": "Por favor un caldo de gallina con pechuga", "label": "realizar_pedido"}
+{"text": "Puedo pagar con tarjeta?", "label": "metodos_pago"}
+{"text": "Un hornado completo y un seco de chivo porfavor", "label": "realizar_pedido"}
+{"text": "No a otra dirección porfavor", "label": "correccion_direccion"}
+{"text": "Buenas tardes", "label": "saludo"}
+{"text": "Me podría ayudar con un menudo solo tripa y un choclo mote con fritada. POR FAVOR NO ENCURTIDO SOLO AGRIO Y MAPAGUIRA Y AJI DE MANI POR FAVOR", "label": "realizar_pedido"}
+{"text": "Tarjeta en qué tiempo llega por favor", "label": "delivery"}
+{"text": "Srta. Que pasó ya llega el pedido", "label": "seguimiento_pedido"}
+{"text": "Buenas tardes me puede ayudar con un pedido a domicilio o el contacto para poder hacerlo por favor", "label": "realizar_pedido"}
+{"text": "Hola buenas tardes me ayuda con un pedido porfa", "label": "realizar_pedido"}
+{"text": "permite su sector gracias", "label": "delivery"}
+{"text": "buenos días me ayuda con un pedido a domicilio por favor", "label": "realizar_pedido"}
+{"text": "me ayuda con un caldo de 31 por favor", "label": "realizar_pedido"}
+{"text": "Cuanto me saldría el envío hasta aki", "label": "delivery"}
+{"text": "Me ayuda con 3 menudos", "label": "realizar_pedido"}
+{"text": "Me ayuda con 5 menudos porfa", "label": "realizar_pedido"}
+{"text": "Me ayuda con ají porfa", "label": "modificar_pedido"}
+{"text": "De maní", "label": "modificar_pedido"}
+{"text": "Cambio de $30 Porfa", "label": "metodos_pago"}
+{"text": "Saludos, Los Motes de la Magdalena. Solicito un servicio a domicilio!", "label": "realizar_pedido"}
+{"text": "2 tortillas con caucara 1 churrasco con carne de res 1 menudo 1 mixto de librillo y cuero 1 hornado sin mote", "label": "realizar_pedido"}
+{"text": "Me comparte el menú por favor", "label": "consultar_menu"}
+{"text": "Qué tienen para hoy", "label": "consultar_menu"}
+{"text": "Quiero ver el menú", "label": "consultar_menu"}
+{"text": "Buenas noches me da 1 hornado completo por favor", "label": "realizar_pedido"}
+{"text": "Buenas noches, quisiera 1 hornado completo", "label": "realizar_pedido"}
+{"text": "Hola me da 2 hornado completo por favor", "label": "realizar_pedido"}
+{"text": "Buenos días, quisiera 2 hornado completo", "label": "realizar_pedido"}
+{"text": "Hola me da 3 hornado completo por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 3 hornado completo", "label": "realizar_pedido"}
+{"text": "Buenos días me da 1 seco de chivo por favor", "label": "realizar_pedido"}
+{"text": "Buenas noches, quisiera 1 seco de chivo", "label": "realizar_pedido"}
+{"text": "Buen día me da 2 seco de chivo por favor", "label": "realizar_pedido"}
+{"text": "Buenas tardes, quisiera 2 seco de chivo", "label": "realizar_pedido"}
+{"text": "Hola me da 3 seco de chivo por favor", "label": "realizar_pedido"}
+{"text": "Hola, quisiera 3 seco de chivo", "label": "realizar_pedido"}
+{"text": "Buenos días me da 1 caldo de gallina con pechuga por favor", "label": "realizar_pedido"}
+{"text": "Buenas noches, quisiera 1 caldo de gallina con pechuga", "label": "realizar_pedido"}
+{"text": "Buenas tardes me da 2 caldo de gallina con pechuga por favor", "label": "realizar_pedido"}
+{"text": "Buenos días, quisiera 2 caldo de gallina con pechuga", "label": "realizar_pedido"}
+{"text": "Buenos días me da 3 caldo de gallina con pechuga por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 3 caldo de gallina con pechuga", "label": "realizar_pedido"}
+{"text": "Buenas noches me da 1 caldo de 31 por favor", "label": "realizar_pedido"}
+{"text": "Hola, quisiera 1 caldo de 31", "label": "realizar_pedido"}
+{"text": "Hola me da 2 caldo de 31 por favor", "label": "realizar_pedido"}
+{"text": "Buenos días, quisiera 2 caldo de 31", "label": "realizar_pedido"}
+{"text": "Buen día me da 3 caldo de 31 por favor", "label": "realizar_pedido"}
+{"text": "Hola, quisiera 3 caldo de 31", "label": "realizar_pedido"}
+{"text": "Hola me da 1 menudo por favor", "label": "realizar_pedido"}
+{"text": "Buenas tardes, quisiera 1 menudo", "label": "realizar_pedido"}
+{"text": "Buenas tardes me da 2 menudo por favor", "label": "realizar_pedido"}
+{"text": "Hola, quisiera 2 menudo", "label": "realizar_pedido"}
+{"text": "Buenas tardes me da 3 menudo por favor", "label": "realizar_pedido"}
+{"text": "Hola, quisiera 3 menudo", "label": "realizar_pedido"}
+{"text": "Hola me da 1 menudo solo tripa por favor", "label": "realizar_pedido"}
+{"text": "Buenos días, quisiera 1 menudo solo tripa", "label": "realizar_pedido"}
+{"text": "Buenos días me da 2 menudo solo tripa por favor", "label": "realizar_pedido"}
+{"text": "Hola, quisiera 2 menudo solo tripa", "label": "realizar_pedido"}
+{"text": "Buen día me da 3 menudo solo tripa por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 3 menudo solo tripa", "label": "realizar_pedido"}
+{"text": "Buenos días me da 1 choclo mote con fritada por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 1 choclo mote con fritada", "label": "realizar_pedido"}
+{"text": "Buenos días me da 2 choclo mote con fritada por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 2 choclo mote con fritada", "label": "realizar_pedido"}
+{"text": "Buenas tardes me da 3 choclo mote con fritada por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 3 choclo mote con fritada", "label": "realizar_pedido"}
+{"text": "Buenos días me da 1 tortilla con caucara por favor", "label": "realizar_pedido"}
+{"text": "Hola, quisiera 1 tortilla con caucara", "label": "realizar_pedido"}
+{"text": "Buenos días me da 2 tortilla con caucara por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 2 tortilla con caucara", "label": "realizar_pedido"}
+{"text": "Buen día me da 3 tortilla con caucara por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 3 tortilla con caucara", "label": "realizar_pedido"}
+{"text": "Buenas noches me da 1 churrasco con carne de res por favor", "label": "realizar_pedido"}
+{"text": "Buenas tardes, quisiera 1 churrasco con carne de res", "label": "realizar_pedido"}
+{"text": "Buenos días me da 2 churrasco con carne de res por favor", "label": "realizar_pedido"}
+{"text": "Buenas tardes, quisiera 2 churrasco con carne de res", "label": "realizar_pedido"}
+{"text": "Buen día me da 3 churrasco con carne de res por favor", "label": "realizar_pedido"}
+{"text": "Buen día, quisiera 3 churrasco con carne de res", "label": "realizar_pedido"}
+{"text": "Hola me da 1 mixto de librillo y cuero por favor", "label": "realizar_pedido"}
+{"text": "Buenas tardes, quisiera 1 mixto de librillo y cuero", "label": "realizar_pedido"}
+{"text": "Buen día me da 2 mixto de librillo y cuero por favor", "label": "realizar_pedido"}
+{"text": "Buenas tardes, quisiera 2 mixto de librillo y cuero", "label": "realizar_pedido"}
+{"text": "Hola me comparte el menú por favor", "label": "consultar_menu"}
+{"text": "Buenas tardes me comparte el menú por favor", "label": "consultar_menu"}
+{"text": "Buen día me comparte el menú por favor", "label": "consultar_menu"}
+{"text": "Hola, qué tienen para hoy", "label": "consultar_menu"}
+{"text": "Buenas tardes, qué tienen para hoy", "label": "consultar_menu"}
+{"text": "Buen día, qué tienen para hoy", "label": "consultar_menu"}
+{"text": "Hola quiero ver el menú", "label": "consultar_menu"}
+{"text": "Buenas tardes quiero ver el menú", "label": "consultar_menu"}
+{"text": "Buen día quiero ver el menú", "label": "consultar_menu"}
+{"text": "Me puede enviar el menú", "label": "consultar_menu"}
+{"text": "Buenas tardes aceptan tarjeta?", "label": "metodos_pago"}
+{"text": "Hola aceptan tarjeta?", "label": "metodos_pago"}
+{"text": "Puedo pagar con tarjeta", "label": "metodos_pago"}
+{"text": "Pago en efectivo o tarjeta?", "label": "metodos_pago"}
+{"text": "Se puede cancelar con tarjeta?", "label": "metodos_pago"}
+{"text": "Buenas tardes, cuánto cuesta el envío hasta aquí", "label": "delivery"}
+{"text": "Le comparto mi ubicación", "label": "delivery"}
+{"text": "Esta es mi ubicación actual", "label": "delivery"}
+{"text": "No a esa dirección por favor", "label": "correccion_direccion"}
+{"text": "Cuánto me sale el domicilio a este sector", "label": "delivery"}
+{"text": "Ají por favor", "label": "modificar_pedido"}
+{"text": "Ají de maní por favor", "label": "modificar_pedido"}
+{"text": "Chicha", "label": "realizar_pedido"}
+{"text": "A los mismos datos la factura", "label": "datos_factura"}
+{"text": "La factura por favor con los mismos datos", "label": "datos_factura"}
+{"text": "Cambio de 20 por favor", "label": "metodos_pago"}
+{"text": "Cambio de 30 por favor", "label": "metodos_pago"}
+{"text": "Ya llega mi pedido?", "label": "seguimiento_pedido"}
+{"text": "Que pasó con mi pedido", "label": "seguimiento_pedido"}
+{"text": "Deme un menudo por favor", "label": "realizar_pedido"}
+{"text": "Buenas tardes un menudo y un mote", "label": "realizar_pedido"}
+{"text": "Me da 2 menudos", "label": "realizar_pedido"}
+{"text": "Quiero un mote para llevar", "label": "realizar_pedido"}
+{"text": "Buenas un mote y un hornado completo", "label": "realizar_pedido"}
+{"text": "Un hornado y un hornado completo", "label": "realizar_pedido"}
+{"text": "Caldo de gallina con pechuga", "label": "realizar_pedido"}
+{"text": "Buenas tardes un caldo con muslo por favor", "label": "realizar_pedido"}
+{"text": "Me ayuda con 2 caldos de gallina con presa", "label": "realizar_pedido"}
+{"text": "Quiero un caldo de gallina con ala y un menudo", "label": "realizar_pedido"}
+{"text": "Buenas qué tienen para hoy", "label": "consultar_menu"}
+{"text": "Me recomienda algo y me envía el menú", "label": "consultar_menu"}
+{"text": "Deme un mote con ají de maní", "label": "realizar_pedido"}
+{"text": "Un menudo sin ají", "label": "realizar_pedido"}
+{"text": "Mote con agrio y mapaguira", "label": "realizar_pedido"}
+{"text": "Un caldo con pechuga y limonada", "label": "realizar_pedido"}
+{"text": "2 motes y una magchicha mediana", "label": "realizar_pedido"}
+{"text": "Mini hornado y mini menudo", "label": "realizar_pedido"}
+{"text": "Buenas tardes deme un menudo de la magdalena", "label": "realizar_pedido"}

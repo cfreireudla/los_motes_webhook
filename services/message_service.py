@@ -8,6 +8,7 @@ from services.menu_service import (
     confirm_order
 )
 from services.user_state_service import get_or_create_user, clear_user_cart
+from services.user_state_service import update_user_state
 from services.interactive_messages import send_text_message
 from services.ai_service import process_with_ai, get_ai_service
 
@@ -64,6 +65,21 @@ async def process_message(message: dict, contact: dict):
             elif response_type == "list_reply":
                 list_id = interactive_data.get("list_reply", {}).get("id")
                 await handle_list_response(phone_number, list_id, db)
+
+        # Manejar ubicación compartida desde WhatsApp
+        elif message_type == "location":
+            user = get_or_create_user(db, phone_number)
+            if user.current_state == "AWAITING_LOCATION":
+                update_user_state(db, phone_number, "INITIAL")
+                await send_text_message(
+                    phone_number,
+                    "¡Gracias! ✅ Un asesor se va a comunicar contigo inmediatamente para coordinar la entrega."
+                )
+            else:
+                await send_text_message(
+                    phone_number,
+                    "¡Ubicación recibida! 📍 Si deseas, también puedes escribirnos tu dirección para continuar con el pedido."
+                )
         
     except Exception as e:
         print(f"❌ Error procesando mensaje: {e}")

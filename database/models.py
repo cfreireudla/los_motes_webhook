@@ -34,9 +34,10 @@ class UserState(Base):
     
     id = Column(Integer, primary_key=True, index=True)
     phone_number = Column(String(20), unique=True, nullable=False, index=True)
-    current_state = Column(String(50), default="INITIAL")  # INITIAL, MENU, CATEGORY, SELECTING, CONFIRMING
+    current_state = Column(String(50), default="INITIAL")  # INITIAL, MENU, CATEGORY, SELECTING, CONFIRMING, AWAITING_CONFIRMATION, AWAITING_ADDRESS
     current_category_id = Column(Integer, ForeignKey("categories.id"), nullable=True)
     last_interaction = Column(DateTime, default=datetime.now, onupdate=datetime.now)
+    pending_order_json = Column(Text, nullable=True)  # JSON con productos parseados pendientes de confirmar
     
     orders = relationship("Order", back_populates="user")
 

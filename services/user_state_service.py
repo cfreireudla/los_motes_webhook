@@ -103,3 +103,54 @@ def clear_user_cart(db: Session, user_id: int):
         db.query(OrderItem).filter(OrderItem.order_id == order.id).delete()
         db.delete(order)
         db.commit()
+
+
+def save_pending_order(db: Session, phone_number: str, order_data: dict):
+    """
+    Guarda el pedido parseado como JSON pendiente de confirmación.
+    También actualiza el estado a AWAITING_CONFIRMATION.
+    """
+    import json
+    user = get_or_create_user(db, phone_number)
+    user.pending_order_json = json.dumps(order_data, ensure_ascii=False)
+    user.current_state = "AWAITING_CONFIRMATION"
+    db.commit()
+    return user
+
+
+def get_pending_order(db: Session, phone_number: str) -> dict:
+    """
+    Recupera el pedido pendiente de confirmación.
+    Retorna None si no hay pedido pendiente.
+    """
+    import json
+    user = get_or_create_user(db, phone_number)
+    if user.pending_order_json:
+        return json.loads(user.pending_order_json)
+    return None
+
+
+def clear_pending_order(db: Session, phone_number: str):
+    """
+    Limpia el pedido pendiente después de confirmarlo o cancelarlo.
+    """
+    user = get_or_create_user(db, phone_number)
+    user.pending_order_json = None
+    user.current_state = "INITIAL"
+    db.commit()
+    return user
+
+
+def confirm_pending_order(db: Session, phone_number: str) -> dict:
+    """
+    Confirma el pedido pendiente y retorna los datos.
+    Retorna el pedido confirmado o None si no había pedido.
+    """
+    user = get_or_create_user(db, phone_number)
+    if user.pending_order_json:
+        import json
+        order_data = json.loads(user.pending_order_json)
+        # No cambiamos estado aquí, se hará en clear_pending_order
+        db.commit()
+        return order_data
+    return None
